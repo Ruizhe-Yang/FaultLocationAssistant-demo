@@ -33,7 +33,7 @@ public class RunEolClean implements IExternalJavaAction{
 		// TODO Auto-generated method stub
         try {
             IEolModule module = new EolModule();    
-            File eolFile = new File("D:\\Workspaces\\Projects\\ESDT2\\cnsa.ee.digital.twin.example\\test149\\cleanAll.eol");
+            File eolFile = new File("E:\\GitYang\\FaultLocationAssistant-demo\\cnsa.ee.digital.twin.example\\test149\\cleanAll.eol");
             module.parse(eolFile);           
             if (!selections.isEmpty()) {
             	EObject context = selections.iterator().next();
